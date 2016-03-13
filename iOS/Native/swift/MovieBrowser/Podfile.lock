@@ -1,0 +1,43 @@
+PODS:
+  - Alamofire (3.2.1)
+  - ObjectMapper (1.1.5)
+  - OMGHTTPURLRQ (3.1.1):
+    - OMGHTTPURLRQ/RQ (= 3.1.1)
+  - OMGHTTPURLRQ/FormURLEncode (3.1.1)
+  - OMGHTTPURLRQ/RQ (3.1.1):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.1.1)
+  - PKHUD (3.1.0)
+  - PromiseKit (3.0.3):
+    - PromiseKit/Foundation (= 3.0.3)
+    - PromiseKit/QuartzCore (= 3.0.3)
+    - PromiseKit/UIKit (= 3.0.3)
+  - PromiseKit/CorePromise (3.0.3)
+  - PromiseKit/Foundation (3.0.3):
+    - OMGHTTPURLRQ (~> 3.1.0)
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (3.0.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (3.0.3):
+    - PromiseKit/CorePromise
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 3.2.1)
+  - ObjectMapper (~> 1.1.5)
+  - PKHUD
+  - PromiseKit
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
+  OMGHTTPURLRQ: 633f98ee745aeda02345935a52eec1784cddb589
+  PKHUD: 4167eccdb1b3a892fd80ce2b51cb6ba412a889ab
+  PromiseKit: 00ec2a219bf5ad2833f95977698e921932b8dfd3
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+COCOAPODS: 0.39.0
